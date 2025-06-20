@@ -1,0 +1,121 @@
+// Get the modal
+var modal = document.getElementById("hoteladdpopupbox");
+
+// Get the button that opens the modal
+var btn = document.getElementById("hoteladdpopup");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
+function openNav() 
+{
+//alert("ssss");
+  var prop=document.getElementById("mySidenav");
+  if ($(window).width() > 768) {
+   
+  if(prop.style.width=='' || prop.style.width=="5rem")
+  {
+	  document.getElementById("mySidenav").style.width = "14rem";
+	  document.getElementById("mySidenav").style.transition = "all .3s";
+	  document.getElementById("mySidenav").style.background = "#ffffff";
+  }
+  else
+  {
+	  document.getElementById("mySidenav").style.width = "5rem";
+	  document.getElementById("mySidenav").style.transition = "all .3s";
+	  document.getElementById("mySidenav").style.background = "#ffffff";
+  }
+  }
+  else
+	  
+   if(prop.style.width=='' || prop.style.width=="14rem")
+  {
+	  document.getElementById("mySidenav").style.width = "0rem";
+	  document.getElementById("mySidenav").style.transition = "all .3s";
+	  document.getElementById("mySidenav").style.background = "#ffffff";
+  }
+  else
+  {
+	  document.getElementById("mySidenav").style.width = "14rem";
+	  document.getElementById("mySidenav").style.transition = "all .3s";
+	  document.getElementById("mySidenav").style.background = "#ffffff";
+  }
+  
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+function bigImg()
+{
+	alert("ssss");
+	//document.getElementById("mySidenav").style.width = "14rem";
+}
+
+if ($(window).width() < 768) {
+    document.getElementById("mySidenav").style.width = "0";
+}
+if ($(window).width() > 768) {
+  document.getElementById("mySidenav").style.width = "5rem";
+   document.getElementById("mySidenav").style.background = "#ffffff";
+}
+
+
+function CloseCartPopup()
+{
+	document.getElementById("CartPopup").style.width = "0px";
+	document.getElementById("CartPopup").style.transition = "all .3s";
+	document.getElementById("CartPopup").style.opacity = 0;
+
+}
+function OpenCartPopup()
+{
+	document.getElementById("CartPopup").style.width = "480px";
+	document.getElementById("CartPopup").style.transition = "all .3s";
+	document.getElementById("CartPopup").style.opacity = 1; 
+	document.getElementById("CartPopup").style.position = "fixed";
+}
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+$("#addressBoxOpen").click(function(){
+  $("#myDropdown").show();
+});
+$("#addressBoxClose").click(function(){
+  $("#myDropdown").hide();
+});
+
+$("#OpenSignInBox").click(function(){
+  //$("#SocialLiginBox").show();
+  alert("sss");
+});
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
