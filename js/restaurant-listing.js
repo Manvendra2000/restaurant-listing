@@ -8,10 +8,10 @@ let nextWidgetOffset = {}
 
 function generateHeader(header, container = 'restaurantlisting') {
     if (window.location.href.toLowerCase().includes("restaurants") && new URLSearchParams(window.location.search).has("collection_id")) {
-        document.title = "Explore " + header.title + " | Dunzo café  Order Your Favorite Cuisines Online";
+        document.title = "Explore " + header.title + " | Jio Eat – Order Your Favorite Cuisines Online";
 
         let $meta = $('meta[name="description"]');
-        const newDescription = "Browse by cuisine, cravings, or moodDunzo café brings you handpicked food categories from top restaurants. Whether it's biryani, pizza, or street food, enjoy faster delivery and better deals.";
+        const newDescription = "Browse by cuisine, cravings, or mood—Jio Eat brings you handpicked food categories from top restaurants. Whether it's biryani, pizza, or street food, enjoy faster delivery and better deals.";
 
         if ($meta.length) {
             $meta.attr("content", newDescription);
@@ -48,17 +48,16 @@ function generateRestaurantTile(restaurant, lat, lng, container = 'restaurantlis
         cuisines,
         areaName,
     } = restaurant;
-  
+
     console.log(restaurant)
-   const optimizedImageUrl = cloudinaryImageId
+    const optimizedImageUrl = cloudinaryImageId
   ? `https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_400,h_300,c_fill/${cloudinaryImageId}`
   : '../images/food-placeholder.jpg';
-  
     const restaurantTileHtml = `<div class="unique-box-card col-xs-3 col-sm-6 col-md-3 co-lg-3 px-1" onclick="location.href='${baseUrl}/restaurant?menuId=${id}'" style="cursor: pointer;">
 <div class="button kuSKyA" style="overflow: hidden; border-radius: 0px;">
 <a href="${baseUrl}/restaurant?menuId=${id}" class="sc-db8c6f48-0 egXQHq sc-6065b21f-1 klgOnn" style="display: block;">
  <div style="width: 100%; aspect-ratio: 4/3; overflow: hidden; border-radius: 0px; position: relative;">
-   <img loading="lazy" src="${optimizedImageUrl}"
+    <img loading="lazy" src="${optimizedImageUrl}"
          alt=""
          style="width: 100%; height: 100%; object-fit: cover; display: block;"
          class="styles__StyledImg-sc-1322bgy-0 dfviTz">
@@ -232,10 +231,10 @@ function showMoreTiles() {
 
 $(document).ready(async function () {
     if (window.location.href.toLowerCase().includes("restaurants") && !new URLSearchParams(window.location.search).has("collection_id")) {
-        document.title = "Browse Restaurants Near You | Dunzo café  Order Food Online in Minutes";
+        document.title = "Browse Restaurants Near You | Jio Eat – Order Food Online in Minutes";
 
         let $meta = $('meta[name="description"]');
-        const newDescription = "Explore top-rated restaurants near you on Dunzo café. From local favorites to popular chains, discover delicious meals delivered fast. Better prices & deals. —order now!";
+        const newDescription = "Explore top-rated restaurants near you on Jio Eat. From local favorites to popular chains, discover delicious meals delivered fast. Better prices & deals. —order now!";
 
         if ($meta.length) {
             $meta.attr("content", newDescription);
