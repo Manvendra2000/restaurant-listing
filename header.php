@@ -70,7 +70,7 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 	<div class="bzAKfa">
 		<div class="gbAjIQ">
 
-			<a href="<?php echo  BASE_URL ?>" ><img class="" src="../images/web-logo.png" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>    </a>
+			<a href="<?php echo  BASE_URL ?>" ><img class="" src="<?php echo BASE_URL.'/images/web-logo.png';?>" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>    </a>
 
 		<div class="bBMLPX gUgQbU">		
 			<div class="nav-link d-flex">
@@ -149,7 +149,7 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
       <a class="navbar-brand" href="<?php  echo BASE_URL; ?>">
              
 
-					<img class="" src="../images/web-logo.png" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>                
+					<img class="" src="<?php echo BASE_URL.'/images/web-logo.png';?>" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>                
       </a>
       <!-- Search form -->
       <form class="d-none d-md-flex input-group w-aut-o my-auto eqOEeN Medium nav-search" action="<?php echo BASE_URL?>/restaurants">
