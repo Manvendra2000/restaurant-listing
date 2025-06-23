@@ -1824,7 +1824,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: #eb1700ff;
+	background-color: #018352;;
 	box-shadow: inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default);
 	color: #fff;
 }
@@ -3052,7 +3052,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: #eb1700ff;
+	background-color: #018352;
 	box-shadow: inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default);
 	color: #ffffff;
 }
@@ -4445,7 +4445,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: rgb(235, 23, 0);
+	background-color: #018352;
 	box-shadow: transparent 0px 0px 0px 1px inset;
 	color: rgb(255, 255, 255);
 }
@@ -7856,7 +7856,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: #eb1700ff;
+	background-color: #018352;;
 	box-shadow: inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default);
 	color: #fff;
 }
@@ -9079,7 +9079,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: #eb1700ff;
+	background-color: #018352;
 	box-shadow: inset 0 0 0 var(--usage-border-width-default) var(--usage-color-transparent-default);
 	color: #ffffff;
 }
@@ -10476,7 +10476,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: rgb(235, 23, 0);
+	background-color: #018352;
 	box-shadow: transparent 0px 0px 0px 1px inset;
 	color: rgb(255, 255, 255);
 }
@@ -12413,7 +12413,7 @@ select.did-floating-select::-ms-expand {
  }
 
 .unique-color {
-    background-color: red;
+    background-color: #018352;
     color: white;
 }
 @media (max-width: 575px){
@@ -12595,7 +12595,7 @@ select.did-floating-select::-ms-expand {
 
 .increase-btn{
 	color: white;
-	background-color: #1ED887;
+	background-color: #018352;
 }
 .decrease-btn{
 	color: white;
@@ -12875,7 +12875,7 @@ main {
 
   
   #top-strip {
-    background-color: #161E31; 
+    background-color: #018352; 
     color: white;
     text-align: center;
     padding: 8px 10px;

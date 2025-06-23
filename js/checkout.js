@@ -56,7 +56,7 @@ function getCartTotal() {
                        <div class="row">
                            <div class="input-group">
                               <input type="text" class="form-control" placeholder="Enter coupon code" id="coupon-code" disabled value="YUMMY99">
-                              <button class="btn btn-primary"disabled type="button" id="apply-coupon">Apply</button>
+                              <button class="btn btn-primary"disabled type="button" id="apply-coupon" style="background-color: #018352;">Apply</button>
                            </div>
                        </div> 
                     </div>   

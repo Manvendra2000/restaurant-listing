@@ -47,7 +47,7 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 
 <nav id="navmenu" class="navmen-u d-flex align-items-center justify-content-between">
       <a class="navbar-brand" href="<?php echo  BASE_URL ?>">                   
-      <img class="" src="<?php echo BASE_URL.'/images/logo.gif'; ?>" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;margin-left: 50vw;"/>    
+      <img class="" src="<?php echo BASE_URL.'/images/web-logo.png'; ?>" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;margin-left: 50vw;"/>    
 </a>    
 </nav>
 

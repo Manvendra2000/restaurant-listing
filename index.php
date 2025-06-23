@@ -74,10 +74,10 @@ if (isset($_COOKIE['door-dash-place'])) {
 
         >
         <!-- Show on large screens -->
-        <img class="_jjooii d-none d-lg-block" src="images/main-logo.gif" alt="Jio Reliance Logo"/>
+        <img class="_jjooii d-none d-lg-block" src="images/home-logo.png" alt="Jio Reliance Logo"/>
 
         <!-- Show on small screens -->
-        <img class="_jjooii d-block d-lg-none" src="images/m.main-logo.gif" alt="Jio Reliance Logo"/>
+        <img class="_jjooii d-block d-lg-none" src="images/home-logo.png" alt="Jio Reliance Logo"/>
 
 
           <div class="collapse navbar-collapse" id="navbarCollapse" style="display: none !important;"> 
@@ -252,7 +252,7 @@ if (isset($_COOKIE['door-dash-place'])) {
                               <div
 
                                 class="bds-c-btn-cursor bds-c-btn-cursor--layout-full-width-primary"
-                                style="height: 48px;"
+                                style="height: 48px;background-color: #018352;"
                               >
                     
                                 <button
@@ -325,7 +325,7 @@ if (isset($_COOKIE['door-dash-place'])) {
 
                 <div class="hbOgli">
 
-                  <div class="iRARhj"><img src="https://ik.imagekit.io/foodpro/scotter.jpg" /></div>
+                  <div class="iRARhj"><img src="<?php echo BASE_URL; ?>/images/free-delivery.png" alt="Free Delivery"></div>
 
                   <div class="sc-380d932a-4iRARhj">
 
@@ -379,7 +379,7 @@ if (isset($_COOKIE['door-dash-place'])) {
 
                 <div class="hbOgli">
 
-                  <div class="iRARhj"><img src="https://ik.imagekit.io/foodpro/jiostore.png" /></div>
+                  <div class="iRARhj"><img src="<?php echo BASE_URL; ?>/images/24-7.png" alt="24/7"></div>
 
                   <div class="sc-380d932a-4iRARhj">
 
@@ -435,7 +435,7 @@ if (isset($_COOKIE['door-dash-place'])) {
 
                   <div class="iRARhj">
 
-                    <img src="https://ik.imagekit.io/foodpro/jioph.png" style="height: 154px" />
+                  <img src="<?php echo BASE_URL; ?>/images/exclusive.png" alt="Exclusive">
 
                   </div>
 

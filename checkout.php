@@ -158,7 +158,7 @@
                                  
                                  <!-- Submit Button -->
                  <!-- Submit Button -->
-                        <button type="button" id="checkin-payment" class="RtaIn mt-5 mb-3" style="max-width: 600px;">
+                        <button type="button" id="checkin-payment" class="RtaIn mt-5 mb-3" style="max-width: 600px; background-color: #018352;">
                            <span class="jONJUs">
                               <span class="ewsJyR">Continue to Payment</span>
                            </span>
@@ -295,7 +295,7 @@
 
 
                           <!-- Submit Button -->
-                          <button type="button" id="checkin-payment-mobile" class="RtaIn mt-5 mb-3" style="max-width: 600px;">
+                          <button type="button" id="checkin-payment-mobile" class="RtaIn mt-5 mb-3" style="max-width: 600px; background-color: #018352;">
                            <span class="jONJUs">
                               <span class="ewsJyR">Continue to Payment</span>
                            </span>
