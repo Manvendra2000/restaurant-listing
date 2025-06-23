@@ -3745,7 +3745,7 @@ body {
 }
 
 .jtKXkg:hover {
-	background-color: #d91400ff;
+	background-color: #00653f;
 	box-shadow: inset 0 0 0 1px #19191900;
 	color: #ffffff;
 }
@@ -4072,7 +4072,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: rgb(235, 23, 0);
+	background-color: #018352;
 	box-shadow: transparent 0px 0px 0px 1px inset;
 	color: rgb(255, 255, 255);
 }
@@ -9782,7 +9782,7 @@ body {
 }
 
 .jtKXkg:hover {
-	background-color: #d91400ff;
+	background-color: #00653f;
 	box-shadow: inset 0 0 0 1px #19191900;
 	color: #ffffff;
 }
@@ -10109,7 +10109,7 @@ body {
 	user-select: none;
 	text-decoration: none;
 	text-align: center;
-	background-color: rgb(235, 23, 0);
+	background-color: #018352;
 	box-shadow: transparent 0px 0px 0px 1px inset;
 	color: rgb(255, 255, 255);
 }
@@ -12754,28 +12754,38 @@ select.did-floating-select::-ms-expand {
 	max-width: 150px;
 	height: auto;
   }
+ 
+  @media (max-width: 576px) {
+	._jjooii {	 
+	  margin-top: 5px;
+	}
+  }
   
   @media (min-width: 576px) {
 	._jjooii {
 	  max-width: 150px;
+	  margin-top: 3%;
 	}
   }
   
   @media (min-width: 768px) {
 	._jjooii {
-	  max-width: 180px;
+	  max-width: 150px;
+	  margin-top: 1%;
 	}
   }
   
   @media (min-width: 992px) {
 	._jjooii {
 	  max-width: 200px;
+	  margin-top: 2%;
 	}
   }
   
   @media (min-width: 1200px) {
 	._jjooii {
 	  max-width: 220px;
+	  margin-top: 2%;
 	}
   }
 

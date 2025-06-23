@@ -187,7 +187,7 @@
                                        <!-- Location Info -->
                                        <div class="cQCjJB">
                                        <div class="bYgTjp d-flex align-items-center gap-2">
-                                          <img src="../images/locatio_icon.png" style="width: 25px;">
+                                          <img src="<?php echo BASE_URL.'/images/locatio_icon.png';?>" style="width: 25px;">
                                           <label class="bBNyru">
                                              <span class="text-secondary d-inline-block text-break" style="max-width: 100%;">
                                              <?php echo isset($_COOKIE['door-dash-place']) ? urldecode($_COOKIE['door-dash-place']) : '' ?>

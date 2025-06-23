@@ -24,8 +24,8 @@ if (isset($_COOKIE['door-dash-place'])) {
     <meta name = "description" content =""> 
     <meta charset="utf-8" />
 
-    <title>Dunzo café</title>
-<meta name = "description" content =" Dunzo café – Order Your First Meal for Just 99! Discover Indias smartest food delivery app. Faster delivery, better prices, and unbeatable deals. "> 
+<title>Dunzo café | Faster, Fresher, Smarter Food Delivery Across India </title>
+<meta name = "description" content =" Dunzo café – Order Your First Meal for Just 99! Discover India’s smartest food delivery app. Faster delivery, better prices, and unbeatable deals. "> 
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="icon" href="<?php echo BASE_URL.'images/favicon.png'; ?>" type="image/x-icon">
     <!-- Libraries Stylesheet -->

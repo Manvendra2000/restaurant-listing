@@ -69,44 +69,10 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 <header data-testid="Header" class="cUNlxH d-md-none">
 	<div class="bzAKfa">
 		<div class="gbAjIQ">
-			<!-- <div class="bXkLEz">
-				<div class="WcJQY">
-					<button class="iPUGzV" type="button" onclick="openNav()">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="#f44322" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="styles__StyledInlineSvg-sc-12l8vvi-0 iIiQzo fetched-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 8C3.45 8 3 7.55 3 7C3 6.45 3.45 6 4 6H20C20.55 6 21 6.45 21 7C21 7.55 20.55 8 20 8H4ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18Z" fill="currentColor"></path></svg>
-					</button>
-				</div>
-				<button kind="BUTTON/PLAIN" aria-label="Search stores, dishes, products" class="styles__ButtonRoot-sc-1ldytso-0 cvFqUQ" type="button"><a href="<?php echo BASE_URL ?>"><svg aria-hidden="true" width="32" height="18" viewBox="0 0 99.5 56.5" fill="#f44322"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg>
-				</a>
-				</button>
-				<div data-testid="HomeLogo">
-					<a href="<?php echo BASE_URL ?>" class="sc-db8c6f48-0 egXQHq" data-accessibility-id="header-homepage-link" aria-label="DoorDash Home Page"><div class="InlineChildren__StyledInlineChildren-sc-6r2tfo-0 jiFBoj">
-					<svg aria-hidden="true" width="120" height="18" viewBox="0 0 361.1 42" fill="red"><path d="M8.62,8.66V33.38h6.32A12.21,12.21,0,0,0,27,21,12,12,0,0,0,14.94,8.66ZM14.94.91C26.72.91,35.63,9.81,35.63,21S26.72,41.14,14.94,41.14H1a1,1,0,0,1-1-1V1.95a1,1,0,0,1,1-1Z"></path><path d="M66,34.24A13.22,13.22,0,1,0,52.82,21,13.24,13.24,0,0,0,66,34.24M66,0C78.4,0,87.88,9.53,87.88,21S78.4,42,66,42,44.2,32.52,44.2,21,53.68,0,66,0"></path><path d="M118,34.24A13.22,13.22,0,1,0,104.75,21,13.24,13.24,0,0,0,118,34.24M118,0c12.36,0,21.84,9.48,21.84,21S130.32,42,118,42,96.12,32.52,96.12,21,105.6,0,118,0"></path><path d="M168.75,8.66h-8.91V19.3h8.91a5.22,5.22,0,0,0,5.46-5.17,5.28,5.28,0,0,0-5.46-5.46M151.22,1.95a1,1,0,0,1,1-1H169c8,0,13.79,5.86,13.79,13.22a13,13,0,0,1-7.18,11.78l7.74,13.68a1,1,0,0,1-.91,1.56h-6.79a1,1,0,0,1-.91-.54l-7.46-13.54h-7.47v13a1,1,0,0,1-1,1h-6.54a1,1,0,0,1-1-1Z"></path><path d="M205.26,8.85V33.57h6.32a12.21,12.21,0,0,0,12.07-12.36A12,12,0,0,0,211.58,8.85Zm6.32-7.76c11.78,0,20.69,8.91,20.69,20.12s-8.91,20.12-20.69,20.12h-13.9a1,1,0,0,1-1-1V2.14a1,1,0,0,1,1-1Z"></path><path d="M258.56,10.92l-4.89,13.22h9.77Zm-7.76,20.69-3.2,8.8a1,1,0,0,1-1,.69h-6.94a1,1,0,0,1-1-1.42l15-38.15a1,1,0,0,1,1-.66h7.77a1,1,0,0,1,1,.66l15,38.15a1,1,0,0,1-1,1.42h-6.94a1,1,0,0,1-1-.69l-3.2-8.8Z"></path><path d="M286.48,11.78C286.48,5.46,291.94,0,300.56,0a17.84,17.84,0,0,1,12.51,4.71,1,1,0,0,1,0,1.47L309.22,10a1,1,0,0,1-1.42,0,10.12,10.12,0,0,0-6.67-2.63c-3.45,0-6,2-6,4.31,0,7.47,20.38,3.16,20.38,17.53C315.5,36.49,310,42,300.27,42a20.41,20.41,0,0,1-14.54-5.84,1,1,0,0,1,0-1.47l3.72-3.72a1,1,0,0,1,1.45,0,12.85,12.85,0,0,0,8.79,3.58c4.31,0,7.15-2.3,7.15-5.18,0-7.47-20.37-3.16-20.37-17.53"></path><path d="M352.47,1.9V17H335.22V1.9a1,1,0,0,0-1-1h-6.54a1,1,0,0,0-1,1V40.05a1,1,0,0,0,1,1h6.54a1,1,0,0,0,1-1V24.71h17.24V40.05a1,1,0,0,0,1,1H360a1,1,0,0,0,1-1V1.9a1,1,0,0,0-1-1h-6.54A1,1,0,0,0,352.47,1.9Z"></path></svg>
 
-					</div>
-					</a>
-				</div>
-			</div> -->
 			<a href="<?php echo  BASE_URL ?>" ><img class="" src="../images/web-logo.png" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>    </a>
 
-		<div class="bBMLPX gUgQbU">
-			<!-- <a class="eVspjz" href="#">
-				<span class="SUFDc jONJUs">
-					<span class="bKlOJC">
-						<span class="kXCksQ">
-							<span class="jfCVbo">Login</span>
-						</span>
-					</span>
-				</span>
-			</a>
-			<a class="juMwhg" href="#">
-				<span class="SUFDc jONJUs">
-					<span class="bKlOJC">
-						<span class="kXCksQ">
-							<span class="itAsYp">Open App</span>
-						</span>
-					</span>
-				</span>
-			</a> -->
+		<div class="bBMLPX gUgQbU">		
 			<div class="nav-link d-flex">
 		   <?php  if (!isset($_SESSION['user_id'])): ?>
 				<button class="eVspjz jfCVbo SUFDc jONJUs itAsYp" type="button" id="HomePageSignInBoxOpenButton">Sign in</button>
@@ -182,8 +148,7 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 	  <span class="Medium-lga WcJQY" style="font-size:30px;cursor:pointer;" onclick="openNav()"><i class="bi bi-list"></i></span>
       <a class="navbar-brand" href="<?php  echo BASE_URL; ?>">
              
-<!--                    
-					<div class="px-1 gKinpO"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 99.5 56.5" fill="red"><path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16"></path></svg><div class="styles__LogoTextContainer-sc-uv595k-0 ciWLJB"><svg aria-hidden="true" width="120" height="18" viewBox="0 0 361.1 42" fill="red"><path d="M8.62,8.66V33.38h6.32A12.21,12.21,0,0,0,27,21,12,12,0,0,0,14.94,8.66ZM14.94.91C26.72.91,35.63,9.81,35.63,21S26.72,41.14,14.94,41.14H1a1,1,0,0,1-1-1V1.95a1,1,0,0,1,1-1Z"></path><path d="M66,34.24A13.22,13.22,0,1,0,52.82,21,13.24,13.24,0,0,0,66,34.24M66,0C78.4,0,87.88,9.53,87.88,21S78.4,42,66,42,44.2,32.52,44.2,21,53.68,0,66,0"></path><path d="M118,34.24A13.22,13.22,0,1,0,104.75,21,13.24,13.24,0,0,0,118,34.24M118,0c12.36,0,21.84,9.48,21.84,21S130.32,42,118,42,96.12,32.52,96.12,21,105.6,0,118,0"></path><path d="M168.75,8.66h-8.91V19.3h8.91a5.22,5.22,0,0,0,5.46-5.17,5.28,5.28,0,0,0-5.46-5.46M151.22,1.95a1,1,0,0,1,1-1H169c8,0,13.79,5.86,13.79,13.22a13,13,0,0,1-7.18,11.78l7.74,13.68a1,1,0,0,1-.91,1.56h-6.79a1,1,0,0,1-.91-.54l-7.46-13.54h-7.47v13a1,1,0,0,1-1,1h-6.54a1,1,0,0,1-1-1Z"></path><path d="M205.26,8.85V33.57h6.32a12.21,12.21,0,0,0,12.07-12.36A12,12,0,0,0,211.58,8.85Zm6.32-7.76c11.78,0,20.69,8.91,20.69,20.12s-8.91,20.12-20.69,20.12h-13.9a1,1,0,0,1-1-1V2.14a1,1,0,0,1,1-1Z"></path><path d="M258.56,10.92l-4.89,13.22h9.77Zm-7.76,20.69-3.2,8.8a1,1,0,0,1-1,.69h-6.94a1,1,0,0,1-1-1.42l15-38.15a1,1,0,0,1,1-.66h7.77a1,1,0,0,1,1,.66l15,38.15a1,1,0,0,1-1,1.42h-6.94a1,1,0,0,1-1-.69l-3.2-8.8Z"></path><path d="M286.48,11.78C286.48,5.46,291.94,0,300.56,0a17.84,17.84,0,0,1,12.51,4.71,1,1,0,0,1,0,1.47L309.22,10a1,1,0,0,1-1.42,0,10.12,10.12,0,0,0-6.67-2.63c-3.45,0-6,2-6,4.31,0,7.47,20.38,3.16,20.38,17.53C315.5,36.49,310,42,300.27,42a20.41,20.41,0,0,1-14.54-5.84,1,1,0,0,1,0-1.47l3.72-3.72a1,1,0,0,1,1.45,0,12.85,12.85,0,0,0,8.79,3.58c4.31,0,7.15-2.3,7.15-5.18,0-7.47-20.37-3.16-20.37-17.53"></path><path d="M352.47,1.9V17H335.22V1.9a1,1,0,0,0-1-1h-6.54a1,1,0,0,0-1,1V40.05a1,1,0,0,0,1,1h6.54a1,1,0,0,0,1-1V24.71h17.24V40.05a1,1,0,0,0,1,1H360a1,1,0,0,0,1-1V1.9a1,1,0,0,0-1-1h-6.54A1,1,0,0,0,352.47,1.9Z"></path></svg></div></div> -->
+
 					<img class="" src="../images/web-logo.png" alt="Jio Reliance Logo" style="width: 125px; margin-right: -20px;"/>                
       </a>
       <!-- Search form -->
@@ -278,236 +243,236 @@ $cart = isset($_SESSION['cart']) ? $_SESSION['cart'] : [];
 
 <script>
 
-var breakpoint = {
+	var breakpoint = {
 
-// Small screen / phone
+	// Small screen / phone
 
-sm: 576,
+	sm: 576,
 
-// Medium screen / tablet
+	// Medium screen / tablet
 
-md: 768,
+	md: 768,
 
-// Large screen / desktop
+	// Large screen / desktop
 
-lg: 992,
+	lg: 992,
 
-// Extra large screen / wide desktop
+	// Extra large screen / wide desktop
 
-xl: 1200
+	xl: 1200
 
-};
-
-
+	};
 
 
 
-$('#foodmenu').slick({
 
-  autoplay: false,
 
-  autoplaySpeed: 1000,
+	$('#foodmenu').slick({
 
-  pauseOnFocus: false,
+	autoplay: false,
 
-  draggable: false,
+	autoplaySpeed: 1000,
 
-  infinite: false,
+	pauseOnFocus: false,
 
-  dots: false,
+	draggable: false,
 
-  arrows: false,
+	infinite: false,
 
-  speed: 1000,
+	dots: false,
 
-  mobileFirst: true,
+	arrows: false,
 
-  slidesToShow: 5,
+	speed: 1000,
 
-  slidesToScroll: 5,
+	mobileFirst: true,
 
-  responsive: [{
+	slidesToShow: 5,
 
-	  breakpoint: breakpoint.sm,
+	slidesToScroll: 5,
 
-	  settings: {
+	responsive: [{
 
-		slidesToShow: 8,
+		breakpoint: breakpoint.sm,
 
-		slidesToScroll: 8,
+		settings: {
 
-		arrows: false
+			slidesToShow: 8,
 
-	  }
+			slidesToScroll: 8,
 
-	},
+			arrows: false
 
-	{
+		}
 
-	  breakpoint: breakpoint.md,
+		},
 
-	  settings: {
+		{
 
-		slidesToShow: 10,
+		breakpoint: breakpoint.md,
 
-		slidesToScroll: 10,
+		settings: {
 
-		arrows: false
+			slidesToShow: 10,
 
-	  }
+			slidesToScroll: 10,
 
-	},
+			arrows: false
 
-	{
+		}
 
-	  breakpoint: breakpoint.lg,
+		},
 
-	  settings: {
+		{
 
-		slidesToShow: 10,
+		breakpoint: breakpoint.lg,
 
-		slidesToScroll: 10,
+		settings: {
 
-		arrows: false
+			slidesToShow: 10,
 
-	  }
+			slidesToScroll: 10,
 
-	},
+			arrows: false
 
-	{
+		}
 
-	  breakpoint: breakpoint.xl,
+		},
 
-	  settings: {
+		{
 
-		slidesToShow: 15,
+		breakpoint: breakpoint.xl,
 
-		slidesToScroll: 15,
+		settings: {
 
-		arrows: false
+			slidesToShow: 15,
 
-	  }
+			slidesToScroll: 15,
 
+			arrows: false
+
+		}
+
+		}
+
+	]
+
+	});
+
+
+
+	$("#DeliveryButton").click(function(){
+
+	$("#DeliveryButton").css("background-color", "black");
+
+	$("#PickupButton").css("background-color", "rgb(231, 231, 231)");
+
+	$("#PickupButton").css("color", "black");
+
+	$("#DeliveryButton").css("color", "white");
+
+	});
+
+	$("#PickupButton").click(function(){
+
+	$("#DeliveryButton").css("background-color", "rgb(231, 231, 231)");
+
+	$("#PickupButton").css("background-color", "black");
+
+	$("#PickupButton").css("color", "white");
+
+	$("#DeliveryButton").css("color", "black");
+
+	});
+
+
+
+	$("#HomePageSignUpBoxOpenButton").click(function(){
+
+	$("#HomePageSignUpBoxBox").show();
+
+	$("#SingupBox").show();
+
+	$("#SocialLiginBox").hide();
+
+	$("#OpenSignUpBox").css("background-color", "black");
+
+	$("#OpenSignUpBox").css("color", "white");
+
+	$("#OpenSignInBox").css("background-color", "rgb(231, 231, 231)");
+
+	$("#OpenSignInBox").css("color", "black");
+
+	
+
+	});
+
+	$("#HomePageSignUpBoxCloseButton").click(function(){
+
+	$("#HomePageSignUpBoxBox").hide();
+
+	$("#SingnIn").show();
+
+	
+
+	});
+
+
+
+	$("#HomePageSignInBoxOpenButton").click(function(){
+
+	$("#HomePageSignUpBoxBox").show();
+
+	
+
+	});
+
+	$("#HomePageSignInBoxCloseButton").click(function(){
+
+	$("#HomePageSignUpBoxBox").hide();
+
+	
+
+	});
+
+
+
+	$("#OpenSignInBox").click(function(){
+
+	$("#SocialLiginBox").show();
+
+	$("#SingupBox").hide();
+
+	$("#OpenSignInBox").css("background-color", "black");
+
+	$("#OpenSignUpBox").css("background-color", "rgb(231, 231, 231)");
+
+	$("#OpenSignUpBox").css("color", "black");
+
+	$("#OpenSignInBox").css("color", "white");
+
+	});
+
+	$("#OpenSignUpBox").click(function(){
+
+	$("#SingupBox").show();
+
+	$("#SocialLiginBox").hide();
+
+	$("#OpenSignInBox").css("background-color", "rgb(231, 231, 231)");
+
+	$("#OpenSignUpBox").css("background-color", "black");
+
+	$("#OpenSignUpBox").css("color", "white");
+
+	$("#OpenSignInBox").css("color", "black");
+
+	});
+	function showSignUpBoxDesktop() {
+	if ($(window).width() >= 992) { // lg breakpoint (desktop)
+		$('#HomePageSignUpBoxBox').show();
 	}
-
-  ]
-
-});
-
-
-
-$("#DeliveryButton").click(function(){
-
-  $("#DeliveryButton").css("background-color", "black");
-
-  $("#PickupButton").css("background-color", "rgb(231, 231, 231)");
-
-  $("#PickupButton").css("color", "black");
-
-   $("#DeliveryButton").css("color", "white");
-
-});
-
-$("#PickupButton").click(function(){
-
-  $("#DeliveryButton").css("background-color", "rgb(231, 231, 231)");
-
-  $("#PickupButton").css("background-color", "black");
-
-  $("#PickupButton").css("color", "white");
-
-  $("#DeliveryButton").css("color", "black");
-
-});
-
-
-
-$("#HomePageSignUpBoxOpenButton").click(function(){
-
-   $("#HomePageSignUpBoxBox").show();
-
-   $("#SingupBox").show();
-
-   $("#SocialLiginBox").hide();
-
-   $("#OpenSignUpBox").css("background-color", "black");
-
-   $("#OpenSignUpBox").css("color", "white");
-
-   $("#OpenSignInBox").css("background-color", "rgb(231, 231, 231)");
-
-   $("#OpenSignInBox").css("color", "black");
-
-  
-
-});
-
-$("#HomePageSignUpBoxCloseButton").click(function(){
-
-   $("#HomePageSignUpBoxBox").hide();
-
-   $("#SingnIn").show();
-
-  
-
-});
-
-
-
-$("#HomePageSignInBoxOpenButton").click(function(){
-
-  $("#HomePageSignUpBoxBox").show();
-
-  
-
-});
-
-$("#HomePageSignInBoxCloseButton").click(function(){
-
-  $("#HomePageSignUpBoxBox").hide();
-
-  
-
-});
-
-
-
-$("#OpenSignInBox").click(function(){
-
-  $("#SocialLiginBox").show();
-
-  $("#SingupBox").hide();
-
-  $("#OpenSignInBox").css("background-color", "black");
-
-  $("#OpenSignUpBox").css("background-color", "rgb(231, 231, 231)");
-
-  $("#OpenSignUpBox").css("color", "black");
-
-   $("#OpenSignInBox").css("color", "white");
-
-});
-
-$("#OpenSignUpBox").click(function(){
-
-  $("#SingupBox").show();
-
-  $("#SocialLiginBox").hide();
-
-  $("#OpenSignInBox").css("background-color", "rgb(231, 231, 231)");
-
-  $("#OpenSignUpBox").css("background-color", "black");
-
-  $("#OpenSignUpBox").css("color", "white");
-
-  $("#OpenSignInBox").css("color", "black");
-
-});
-function showSignUpBoxDesktop() {
-  if ($(window).width() >= 992) { // lg breakpoint (desktop)
-    $('#HomePageSignUpBoxBox').show();
-  }
-}
+	}
 
 </script>
 
